@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.parallaxBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 100px;
+}
+
+section h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+section p {
+  line-height: 1.8em;
+}
+
+.parallaxBg {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.parallaxBg img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 0;
+     object-position: 50% 0;
+}
+
+.parallaxBg h2 {
+  position: absolute;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  background: #fff;
+  padding: 0 20px;
+}
